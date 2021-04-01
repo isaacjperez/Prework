@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         tipControl.setTitle("\(defaults.integer(forKey: tip1))%", forSegmentAt:0)
         tipControl.setTitle("\(defaults.integer(forKey: tip2))%", forSegmentAt:1)
         tipControl.setTitle("\(defaults.integer(forKey: tip3))%", forSegmentAt:2)
+        self.billAmountTextField.becomeFirstResponder()
     }
     
    

@@ -42,6 +42,8 @@ class SettingsViewController: UIViewController {
         tip2Field.text = "\(updatedTip2)"
         tip3Field.text = "\(updatedTip3)"
         
+        self.tip1Field.becomeFirstResponder()
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
